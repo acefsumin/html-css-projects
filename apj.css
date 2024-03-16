@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+.outer{
+    border:10px solid black;
+    background-color: aliceblue;
+    min-height: 100vh;
+    min-width:100vh;   
+}
+.image img{
+    width: 200px;
+    height:200px;  
+    border-radius:40%;
+}
+.top{
+    display: flex;
+    margin-top:100px;
+    margin-left:150px;
+   justify-content: space-between;
+   align-items:flex-end;
+}
+.top .title{
+    margin-right:150px;
+}
+
+.top .title h1{
+    font-size:60px;
+    font-weight: lighter;
+    font-style:normal;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.top .title h4{
+    text-align:end;
+    font-size:30px;
+    font-weight: lighter;
+    font-style:normal;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about{
+    margin-left:150px;
+    margin-right:150px;
+}
+.about h2{
+    font-size: 50px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.about p{
+    line-height:20px;
+    letter-spacing: 1px;
+    text-align:justify;
+}
+.about p::first-line{
+    font-weight:bold;
+}
+.biographies {
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:20px;
+    border:5px dotted blue;
+    width:250px;
+    margin-bottom:50px;
+}
+.biographies ul{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.biographies li{
+    margin-top:10px;
+}
+footer{
+    text-align: end;
+    margin-bottom:10px;
+}
