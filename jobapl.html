@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+
+<body>
+    <!-- Grid = allignment used-->
+    <div class="outer">
+        <h3>Job Application(Web)</h3>
+        <form action="">
+            <div class="form_control">
+                <label for="fname" id="fname">First Name</label>
+                <input type="text" id="fname" placeholder="First Name" minlength="8" maxlength="15" required>
+            </div>
+            <div class="form_control">
+                <label for="lname" id="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Last Name" minlength="8" maxlength="15" required>
+            </div>
+            <div class="form_control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email" required>
+            </div>
+            <div class="form_control">
+                <label for="select">Job:</label>
+                <select id="job">
+                    <option value="">Select Job Role</option>
+                    <option value="QA">QA</option>
+                    <option value="UI">UI</option>
+                    <option value="UX">UX</option>
+                </select>
+            </div>
+            <div class="form_control">
+                <label for="address">Address</label>
+                <textarea id="address" rows="1" cols="10" placeholder="Address...." required></textarea>
+            </div>
+            <div class="form_control">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="city">
+            </div>
+            <div class="form_control">
+                <label for="pin">Pin Code</label>
+                <input type="number" id="pin" placeholder="Pin Code">
+            </div>
+            <div class="form_control">
+                <label for="date">Date</label>
+                <input type="date" id="date">
+            </div>
+            <div class="form_control">
+                <label for="file">Upload your CV</label>
+                <input type="file" id="file" placeholder="CV...">
+            </div>
+            <div class="button">
+                <button>Apply now</button>
+            </div>
+    </div>
+    
+    </form>
+</body>
+
+</html>
